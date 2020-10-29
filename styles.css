@@ -1,3 +1,8 @@
 .hero {
 	background-image:url('urchin-hero.jpg');
+	background-position:53% 56%;
+}
+
+.container .title, .container .subtitle{
+	color:#FAF0E6;
 }
