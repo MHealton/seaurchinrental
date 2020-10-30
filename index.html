@@ -1,63 +1,147 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sea Urchin House</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link
-   rel="stylesheet"
-   href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
-  />
- </head>
- <body>
-  <div class="hero">
-   <div class="hero-body">
-    <div class="container">
-     <h1 class="title has-text-centered">
-      The Sea Urchin
-     </h1>
-     <h2 class="subtitle has-text-centered">
-      View rental availability for the sea urchin house
-     </h2>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sea Urchin House</title>
+    <link rel="stylesheet" href="css/glider.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/
+				font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <div class="hero">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title has-text-centered">
+              The Sea Urchin
+            </h1>
+            <h2 class="subtitle has-text-centered">
+              View rental availability for the sea urchin house
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <!-- Image Carousel -->
+        <div class="column mt-5 is-offset-one-quarter is-one-third">
+          <div class="glider-contain multiple">
+            <button class="glider-prev mt-5 ml-5">
+              <i class="fa fa-chevron-left"></i>
+            </button>
+
+            <div class="glider mx-1">
+              <figure>
+                <img
+                  loading="lazy"
+                  src="Images/IMG_1622-min.JPG"
+                  alt="Exterior"
+                />
+              </figure>
+              <figure>
+                <img
+                  loading="lazy"
+                  src="Images/IMG_1148-min.JPG"
+                  alt="Main living area"
+                />
+              </figure>
+              <figure>
+                <img
+                  loading="lazy"
+                  src="Images/IMG_1144-min.JPG"
+                  alt="Living/dining area"
+                />
+              </figure>
+              <figure>
+                <img
+                  loading="lazy"
+                  src="Images/IMG_1150-min.JPG"
+                  alt="TV over fireplace and bookshelf"
+                />
+              </figure>
+              <figure>
+                <img
+                  loading="lazy"
+                  src="Images/IMG_1142-min.JPG"
+                  alt="Dining table"
+                />
+              </figure>
+              <figure>
+                <img
+                  loading="lazy"
+                  src="Images/IMG_1159-min.JPG"
+                  alt="Master bedroom"
+                />
+              </figure>
+              <figure>
+                <img
+                  loading="lazy"
+                  src="Images/IMG_1152-min.JPG"
+                  alt="Master bath - bathtub"
+                />
+              </figure>
+              <figure>
+                <img
+                  loading="lazy"
+                  src="Images/IMG_1153-min.JPG"
+                  alt="Master bath - vanity"
+                />
+              </figure>
+              <figure>
+                <img
+                  loading="lazy"
+                  src="Images/IMG_1138-min.JPG"
+                  alt="Loft bedroom area"
+                />
+              </figure>
+              <figure>
+                <img
+                  loading="lazy"
+                  src="Images/IMG_1404-min.JPG"
+                  alt="Sunset over the ocean"
+                />
+              </figure>
+            </div>
+
+            <button class="glider-next mt-5 mr-5">
+              <i class="fa fa-chevron-right"></i>
+            </button>
+
+          </div>
+        </div>
+
+        <!-- Availability Calendar -->
+        <div class="ml-3 column is-two-fifths">
+          <script
+            type="text/javascript"
+            src="https://www.availabilitycalendar.com/embed-js/
+						qe2qV3ewIgtt6HtPKJLH/en-0-2-1-7-0-0-0-0-0-0-0-1-0/
+						?css=https://www.seaurchinrental.com/css/main.css"
+          ></script>
+        </div>
+        <div class="column"></div>
+      </div>
     </div>
-   </div>
-  </div>
-  <div class="columns">
-   <div class="column"></div>
-   <div class="column mt-5 is-two-fifths">
-    <div id="carousel" class="carousel">
-     <div class="item-1">
-      <img loading="lazy" src="Images/IMG_1622-min.JPG" alt="" />
-     </div>
-     <div class="item-2">
-      <img loading="lazy" src="Images/IMG_1622-min.JPG" alt="" />
-     </div>
-     <div class="item-3">
-      <img loading="lazy" src="Images/IMG_1622-min.JPG" alt="" />
-     </div>
-    </div>
-   </div>
-   <div class="ml-3 column is-two-fifths">
-    <script
-     type="text/javascript"
-     src="https://www.availabilitycalendar.com/embed-js/qe2qV3ewIgtt6HtPKJLH/en-0-2-1-7-0-0-0-0-0-0-0-1-0/"
-    ></script>
-   </div>
-   <div class="column"></div>
-  </div>
-  <div class="columns">
-   <div class="column"></div>
-   <div class="ml-3 has-text-centered column is-two-thirds">
-    <h5>
-     For all reservation inquiries, contact Lynn at
-     <a href="mailto:searanchsculpturepointdrive@gmail.com"
-      >searanchsculpturepointdrive@gmail.com</a
-     >
-    </h5>
-   </div>
-   <div class="column"></div>
-  </div>
-  <script src="script.js"></script>
-   </body>
+    <footer class="footer has-text-centered">
+      <div class="ml-3">
+        <h5>
+          For all reservation inquiries, contact Lynn at
+          <a href="mailto:searanchsculpturepointdrive@gmail.com"
+            >searanchsculpturepointdrive@gmail.com</a
+          >
+        </h5>
+      </div>
+    </footer>
+
+    <script src="glider.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>

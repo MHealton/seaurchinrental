@@ -1,0 +1,25 @@
+html,
+body {
+	background-color:#FCF5EE;
+}
+
+.hero {
+	background-image:url('../urchin-hero.jpg');
+	background-position:53% 56%;
+}
+
+.container .title, .container .subtitle{
+	color:#FAF0E6;
+}
+
+.glider {
+	overflow:hidden;
+}
+
+.content {
+  min-height: calc(100vh - 170px);
+}
+
+.footer {
+  height: 40px;
+}
